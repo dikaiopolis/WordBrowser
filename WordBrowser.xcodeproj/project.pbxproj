@@ -23,6 +23,7 @@
 		C216383A17FCA22000043D7E /* WordBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C216383917FCA22000043D7E /* WordBrowserTests.m */; };
 		C216384517FCA29500043D7E /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = C216384417FCA29500043D7E /* Word.m */; };
 		C216384817FCC1B500043D7E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C216384717FCC1B500043D7E /* SecondViewController.m */; };
+		C216384B17FCFD7A00043D7E /* AddWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C216384A17FCFD7A00043D7E /* AddWordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		C216384417FCA29500043D7E /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 		C216384617FCC1B400043D7E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
 		C216384717FCC1B500043D7E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		C216384917FCFD7A00043D7E /* AddWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWordViewController.h; sourceTree = "<group>"; };
+		C216384A17FCFD7A00043D7E /* AddWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				C216382417FCA21F00043D7E /* ViewController.m */,
 				C216384617FCC1B400043D7E /* SecondViewController.h */,
 				C216384717FCC1B500043D7E /* SecondViewController.m */,
+				C216384917FCFD7A00043D7E /* AddWordViewController.h */,
+				C216384A17FCFD7A00043D7E /* AddWordViewController.m */,
 				C216382617FCA21F00043D7E /* Images.xcassets */,
 				C216381517FCA21F00043D7E /* Supporting Files */,
 			);
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C216384B17FCFD7A00043D7E /* AddWordViewController.m in Sources */,
 				C216384817FCC1B500043D7E /* SecondViewController.m in Sources */,
 				C216382517FCA21F00043D7E /* ViewController.m in Sources */,
 				C216384517FCA29500043D7E /* Word.m in Sources */,
@@ -472,6 +478,7 @@
 				C216383F17FCA22000043D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C216384017FCA22000043D7E /* Build configuration list for PBXNativeTarget "WordBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				C216384217FCA22000043D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

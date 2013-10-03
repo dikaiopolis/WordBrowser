@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     synonymsLabel.hidden = YES;
-    synonyms2Label.hidden = YES;W
+    synonyms2Label.hidden = YES;
     synonymsArray = [[NSMutableArray alloc] init];
     [super viewDidLoad];
 

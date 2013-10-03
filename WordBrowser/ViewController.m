@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "Word.h"
 #import "SecondViewController.h"
-
+#import "AddWordViewController.h"
 @interface ViewController ()
 
 @end
@@ -82,7 +82,9 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)sender{
     
-
+    if ([segue  isEqual: @"SegueToAddWord"]){
+        Word *newWord = [Word new];
+    } else {
     
     NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
     
@@ -102,6 +104,7 @@
      svc.synonyms2Label.text = [NSString stringWithFormat:@"%@", word.synonyms2];
     [svc.synonymsArray addObject:word.synonyms];
     [svc.synonymsArray addObject:word.synonyms2];
+    }
     
 }
 
@@ -134,7 +137,4 @@
     return self;
 }
 
-- (IBAction)onAddWordButtonPressed:(id)sender {
-    
-}
 @end

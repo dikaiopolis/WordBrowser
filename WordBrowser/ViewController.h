@@ -15,6 +15,5 @@
 @property (strong, nonatomic) NSMutableDictionary *wordsDictionary;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) Word *word;
-- (IBAction)onAddWordButtonPressed:(id)sender;
 
 @end
